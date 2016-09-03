@@ -35,7 +35,7 @@ def caps(bot, update, args):
 echo_handler = MessageHandler([Filters.text], echo)
 caps_handler = CommandHandler('caps', caps, pass_args=True)
 
-updater = Updater('YOUR TOKEN')
+updater = Updater('232175939:AAHZ-wqUv6fuXp7E1V8JOIdvrPzT-uyIF-I')
 
 # For quicker access to the Dispatcher used by your Updater
 dispatcher = updater.dispatcher
